@@ -40,7 +40,9 @@ body, html {
   align-items: center;
   background: rgba(0, 0, 0, 0.3); /* transparent */
   color: white;
+  z-index: 10; /* 👈 add this line */
 }
+
 
 .logo-top {
   font-size: 1.5rem;
