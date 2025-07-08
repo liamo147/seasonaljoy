@@ -37,7 +37,6 @@ body, html {
   left: 0;
   padding: 20px 40px;
   display: flex;
-  border: 2px solid red; /* debug only */
   justify-content: space-between;
   align-items: center;
   background: rgba(0, 0, 0, 0.3); /* transparent */
