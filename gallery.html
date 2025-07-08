@@ -7,16 +7,13 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo-top"><a href="index.html">Seasonal Joy</a></div>
-    <nav>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+  <header id="navbar"></header>
+<script>
+  fetch('navbar.html')
+    .then(res => res.text())
+    .then(data => document.getElementById('navbar').innerHTML = data);
+</script>
+
 
   <section class="gallery">
     <h2>Gallery</h2>
