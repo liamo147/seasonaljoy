@@ -32,16 +32,16 @@ body, html {
 /* Top nav bar */
 .navbar {
   width: 100%;
-  position: absolute;
+  position: fixed; /* changed from absolute */
   top: 0;
   left: 0;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: rgba(0, 0, 0, 0.3); /* transparent */
+  background: rgba(0, 0, 0, 0.8); /* darker for better readability */
   color: white;
-  z-index: 10; /* 👈 add this line */
+  z-index: 10;
 }
 
 
@@ -67,7 +67,7 @@ body, html {
 }
 
 .gallery {
-  padding: 100px 20px 60px; /* top padding avoids overlap */
+  padding: 120px 20px 60px; /* top space clears fixed nav */
   background-color: #f9f9f9;
   text-align: center;
 }
