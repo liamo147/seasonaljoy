@@ -72,6 +72,10 @@ body, html {
   text-align: center;
 }
 
+.gallery-grid img {
+  margin-top: 10px;
+}
+
 .logo-top a {
   text-decoration: none;
   color: white;
